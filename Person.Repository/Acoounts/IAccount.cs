@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Demo.Repository.Model;
 
-namespace Demo.Repository.Contract
+namespace Acoounts
 {
-    public interface IRepository<T>
+public interface IAccount
     {
-        T get(int id);
+        void Draw(double amount);
+        void addDeposit(double amount);
     }
 }

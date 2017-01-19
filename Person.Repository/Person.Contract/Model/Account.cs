@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Demo.Repository.Model
 {
-   public class DifferentObjectType
+   public class Account
     {
         public int Id { get; set; }
         public string Description { get; set; }
-        public Double Amount { get; set; }
+        public Double TotalAmount { get; set; }
+        public Double draw { get; set; }
     }
 }

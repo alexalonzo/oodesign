@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Demo.Repository.Model;
 
-namespace Demo.Repository.Contract
+namespace Cake
 {
-    public interface IRepository<T>
+    public interface IBakeryComponent
     {
-        T get(int id);
+        string GetName();
+        double GetPrice();
     }
 }

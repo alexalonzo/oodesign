@@ -9,25 +9,11 @@ namespace Demo.Repository.Repository
     {
         private List<Person> People = new List<Person>();
 
-        public Person Create(Person person)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Person Delete(int id)
-        {
-            throw new NotImplementedException();
-        }
 
         public Person get(int id)
         {
             Person p = this.People.Find(x => x.Id == id);
             return p;
-        }
-
-        public Person Update(Person person)
-        {
-            throw new NotImplementedException();
         }
 
         public IMPersonRepository() {

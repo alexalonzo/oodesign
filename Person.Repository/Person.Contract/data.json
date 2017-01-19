@@ -1,0 +1,17 @@
+﻿[
+        {
+            "id": 1,
+            "description": "JsonPerson1",
+            "Amount": 1.99
+        },
+        {
+            "Id": 2,
+            "description": "JsonPerson2",
+            "Amount": 2.99
+        },
+        {
+            "Id": 3,
+            "description": "JsonPerson3",
+            "Amount": 3.99
+        }
+]
